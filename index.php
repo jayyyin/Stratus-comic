@@ -11,7 +11,7 @@
 <body>
 
   <script>
-  var data = '<?php
+  var data = JSON.parse('<?php
   $url = 'https://xkcd.com/info.0.json';
   $JSON = file_get_contents($url);
 
@@ -21,7 +21,7 @@
   // You can decode it to process it in PHP
   //$data = json_decode($JSON);
   //var_dump($data);
-  ?>';
+  ?>');
   console.log(data);
 </script>
 <script src="scripts.js"></script>
