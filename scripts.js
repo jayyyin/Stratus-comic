@@ -2,9 +2,8 @@ var getJSON = function(url, callback) {
     var xhr = new XMLHttpRequest();
     xhr.open('GET', url, true);
     xhr.responseType = 'json';
-    xhr.onreadystatechange = function() { if (xhr.readState === 4) {
-      var status = xhr.status;
-      if (status === 200) {
+    xhr.onreadystatechange = function() {
+      if (xhr.readState === 4) {
         callback(null, xhr.response);
       } else {
         callback(status, xhr.response);
