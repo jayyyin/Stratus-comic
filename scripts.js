@@ -8,7 +8,8 @@ if (search_params.get('#') !== data.num) {
   url.search = search_params.toString();
   var new_url = url.toString();
   console.log(new_url);
-  window.location.href = new_url;
+  window.history.replaceState(null, null, "?#=" + data.num);
+  //window.location.href = new_url;
 }
 //console.log(search_params.get('#'));
 //window.history.replaceState(null, null, "?#=" + data.num);
