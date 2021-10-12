@@ -16,13 +16,13 @@
   $JSON = file_get_contents($url);
 
   // echo the JSON (you can echo this to JavaScript to use it there)
-  echo json_encode($JSON);
+  echo $JSON;
 
   // You can decode it to process it in PHP
   //$data = json_decode($JSON);
   //var_dump($data);
   ?>;
-  console.log(data);
+  
 </script>
 <script src="scripts.js"></script>
 <h1>This is a Heading</h1>
