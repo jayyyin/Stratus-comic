@@ -2,11 +2,11 @@ body {
   background-color: powderblue;
 }
 h1 {
-  color: blue;
+  color: #003da6;
   text-align: center;
 }
 p {
-  color: red;
+  color: white;
 }
 
 .picture-frame {
@@ -14,6 +14,7 @@ p {
   min-height: 500px;
   border-radius: 1px;
   border-style: double;
+  align-self: center;
 }
 
 .comic {
