@@ -20,7 +20,7 @@
   //$data = json_decode($JSON);
   //var_dump($data);
   ?>
-  <script> var data = JSON.parse('<?php echo $JSON');
+  <script> var data = JSON.parse('<?php echo $JSON ?>');
 </script>
 <script src="scripts.js"></script>
 <h1>This is a Heading</h1>
