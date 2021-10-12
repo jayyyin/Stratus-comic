@@ -23,12 +23,12 @@
   ?>
 
 </script>
-<script src="scripts.js"></script>
+<script src="init.js"></script>
 <h1>XKCD comics</h1>
 <div id='picture-frame'>
   <img id="comic">
 </div>
 <p>This is a paragraph.</p>
-
+<script src="load.js"></script>
 </body>
 </html>

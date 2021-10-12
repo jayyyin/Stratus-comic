@@ -11,7 +11,7 @@ if (search_params.get('#') !== data.num) {
   window.history.replaceState(null, null, "?%23=" + data.num);
   //window.location.href = new_url;
 }
-document.getElementById("comic").src = data.img;
+
 
 
 //console.log(search_params.get('#'));
