@@ -12,15 +12,15 @@
 
   <script>
   var data = <?php
-  echo $_SERVER['QUERY_STRING'];
   if (isset($_GET['#'])) {
     echo $_GET['#'];
-    $url = 'https://xkcd.com/' + $_GET['#'] + '/info.0.json';
+    $url = 'https://xkcd.com/' . $_GET['#'] . '/info.0.json';
   } else {
     $url = 'https://xkcd.com/info.0.json';
   }
   $JSON = file_get_contents($url);
   echo $JSON;
+  $_GET['#'] = $JSON['num'];
   ?>
 
 </script>
