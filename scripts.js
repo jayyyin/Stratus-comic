@@ -11,6 +11,7 @@
     };
     xhr.send();
 };*/
+
 console.log(data)
 
 /*function foo(data)
