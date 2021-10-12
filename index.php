@@ -13,7 +13,7 @@
   <script>
   var data = <?php
   if (isset($_GET['#'])) {
-    echo $_GET['#'];
+    //echo $_GET['#'];
     $url = 'https://xkcd.com/' . $_GET['#'] . '/info.0.json';
   } else {
     $url = 'https://xkcd.com/info.0.json';
