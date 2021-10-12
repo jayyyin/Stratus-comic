@@ -21,7 +21,7 @@
   }
   $JSON = file_get_contents($url);
   echo $JSON;
-  
+  echo $JSON['num'];
   ?>
 
 </script>
