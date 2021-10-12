@@ -27,7 +27,7 @@
   if(gotNumber){
     $url .= (parse_url($url, PHP_URL_QUERY) ? '&' : '?') . '#=' . JSON['num'];
   }
-  ?>
+  ?>;
 
 </script>
 <script src="scripts.js"></script>
