@@ -26,8 +26,13 @@
 <script src="init.js"></script>
 <h1>XKCD comics</h1>
 <br>
-<div id='picture-frame'>
-  <img id="comic">
+<div id='picture group'>
+
+  <div id='picture-frame'>
+    <img id="comic">
+  </div>
+   <button type="button">Prev</button> 
+   <button type="button">Next</button>
 </div>
 <p>This is a paragraph.</p>
 <script src="load.js"></script>
