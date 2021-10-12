@@ -10,7 +10,7 @@ p {
   color: black;
 }
 
-.picture-frame {
+#picture-frame {
   min-width: 500px;
   min-height: 500px;
   border-radius: 1px;
@@ -18,6 +18,6 @@ p {
   align-self: center;
 }
 
-.comic {
+#comic {
   width: fit-content;
 }
