@@ -25,7 +25,9 @@
 </script>
 <script src="scripts.js"></script>
 <h1>XKCD comics</h1>
-<img id="comic">
+<div id='picture-frame'>
+  <img id="comic">
+</div>
 <p>This is a paragraph.</p>
 
 </body>

@@ -8,3 +8,14 @@ h1 {
 p {
   color: red;
 }
+
+.picture-frame {
+  min-width: 500px;
+  min-height: 500px;
+  border-radius: 1px;
+  border-style: double;
+}
+
+.comic {
+  width: fit-content;
+}
