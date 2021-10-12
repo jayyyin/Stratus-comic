@@ -13,7 +13,6 @@
   <script>
   var data = <?php
   if (isset($_GET['#'])) {
-    //echo $_GET['#'];
     $url = 'https://xkcd.com/' . $_GET['#'] . '/info.0.json';
   } else {
     $url = 'https://xkcd.com/info.0.json';
@@ -25,7 +24,8 @@
 
 </script>
 <script src="scripts.js"></script>
-<h1>This is a Heading</h1>
+<h1>XKCD comics</h1>
+<img id="comic">
 <p>This is a paragraph.</p>
 
 </body>
