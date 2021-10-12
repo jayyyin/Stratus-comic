@@ -16,6 +16,8 @@ p {
   border-radius: 1px;
   border-style: double;
   align-self: center;
+  width: fit-content;
+
 }
 
 #comic {
@@ -24,4 +26,5 @@ p {
   margin-right: auto;
   width: fit-content;
   align-self: center;
+  padding: 10px
 }
