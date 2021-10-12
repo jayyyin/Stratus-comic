@@ -20,4 +20,5 @@ p {
 
 #comic {
   width: fit-content;
+  align-self: center;
 }
