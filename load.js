@@ -1,11 +1,10 @@
-if (localStorage.getItem("visit") == null)
+if (window.localStorage.getItem("visit") == null)
 {
-    // Show Welcome message
-    localStorage.setItem("latest", data.num);
+    // setting data num to first visited site (should be latest)
+    window.localStorage.setItem("latest", data.num);
 }
 
-localStorage.setItem("visit", new Date());
-// Here you can check if last visit date is longer than a day and clear it up, showing Welcome message again...
+window.localStorage.setItem("visit", new Date());
 
 
 //loading image and alt
@@ -21,7 +20,7 @@ if(data.num === 1) {
 else {
   document.getElementById("prevButton").disabled = false;
 }
-if (localStorage.getItem("latest") !== data.num){
+if (window.localStorage.getItem("latest") !== data.num){
   document.getElementById("nextButton").disabled = true;
 }
 else {
