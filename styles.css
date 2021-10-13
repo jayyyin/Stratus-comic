@@ -8,7 +8,9 @@ body {
   align-self: center;
   background-color: powderblue;
   align-content: center;
-  width: 80%
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+  max-width: 80%
 }
 h1 {
   color: #003da6;
