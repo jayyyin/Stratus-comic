@@ -1,4 +1,9 @@
+body {
+  background-color: gray;
+}
+
 #frame {
+  height: 100%;
   margin-left: auto;
   margin-right: auto;
   align-self: center;
