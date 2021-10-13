@@ -15,6 +15,6 @@ var dateString = ''+ data.year + '-' + data.month + '-' + data.day
 const creationDate = new Date(dateString)
 var date = document.getElementById("date").textContent = creationDate.toLocaleString('default', {month: 'long', day: '2-digit', year: 'numeric' });
 if (data.transcript !== "") {
-  var stringedTranscript = data.transcript.replace(new RegExp(data.transcript, '\n'), '<br>')
+  var stringedTranscript = data.transcript.replaceAll( '\n', '<br>')
   document.getElementById("transcript").innerHTML = stringedTranscript;
 }
