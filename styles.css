@@ -1,19 +1,19 @@
 body {
-  background-color:#96A8C8;
+  background-color:#0072B5;
 }
 
 #frame {
   min-height: 90vh;
   margin: auto;
   align-self: center;
-  background-color: gray;
+  background-color: #9BB7D4;
   align-content: center;
   min-width: -moz-fit-content;
   min-width: fit-content;
   max-width: 80%
 }
 h1 {
-  color: #003da6;
+  color: black;
   text-align: center;
 }
 p {
@@ -66,7 +66,6 @@ h2 {
 }
 
 #transcript {
-  background-color: white;
   margin: auto;
   border-radius: 2px;
   border-style: ridge;
