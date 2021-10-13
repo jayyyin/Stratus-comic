@@ -3,7 +3,7 @@ body {
 }
 
 #frame {
-  height: 90vh;
+  min-height: 90vh;
   margin: auto;
   align-self: center;
   background-color: powderblue;
