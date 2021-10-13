@@ -31,14 +31,15 @@
   <h1>XKCD comics</h1>
   <hr>
   <div id='picture-group'>
-    <h2 id='picture-title'> </h2>
-    <div id='picture-frame'>
-      <img id="comic">
-    </div>
     <div id='button-group'>
       <button id="prevButton" type="button">Prev</button>
       <button id="nextButton" type="button">Next</button>
     </div>
+    <h2 id='picture-title'> </h2>
+    <div id='picture-frame'>
+      <img id="comic">
+    </div>
+
   </div>
   <p>This is a paragraph.</p>
   <script src="load.js"></script>
