@@ -63,7 +63,7 @@ if (data.transcript !== "") {
   var idx2 = stringedTranscript.lastIndexOf("}");
   var subString = stringedTranscript.substring(idx1,idx2);
 console.log(subString);
-  if(subString|| subString === "") {
+  if(subString|| subString !== "") {
     //removing the title string from the original transcript
     stringedTranscript = stringedTranscript.substring(0, idx1-1);
 
