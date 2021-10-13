@@ -64,3 +64,8 @@ h2 {
   border-radius: 1px;
   border-style: double;
 }
+
+#transcript {
+  border-radius: 2px;
+  border-style: ridge;
+}
