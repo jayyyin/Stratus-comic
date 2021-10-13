@@ -19,6 +19,10 @@
 
   }
   $JSON = file_get_contents($url);
+  if(empty($JSON)) {
+    $url = 'https://xkcd.com/info.0.json';
+    $JSON = file_get_contents($url);
+  }
   echo $JSON;
   ?>
 
