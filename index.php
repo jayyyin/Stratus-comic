@@ -38,6 +38,7 @@
     <h2 id='picture-title'> </h2>
     <div id='picture-frame'>
       <img id="comic">
+      <h2 id='date'> </h2>
     </div>
 
   </div>
