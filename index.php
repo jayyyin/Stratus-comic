@@ -39,8 +39,9 @@
     <div id='picture-frame'>
       <img id="comic">
       <h2 id='date'> </h2>
+      <p id=transcript>comic contains no transcript</p>
     </div>
-    <p id=transcript>comic contains no transcript</p>
+
   </div>
 
   <script src="load.js"></script>
