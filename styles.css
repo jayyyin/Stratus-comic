@@ -20,8 +20,6 @@ p {
   margin-right: auto;
   min-width: 500px;
   min-height: 500px;
-  border-radius: 1px;
-  border-style: double;
   align-self: center;
   width: fit-content;
 
@@ -33,5 +31,7 @@ p {
   margin-right: auto;
   width: fit-content;
   align-self: center;
-  padding: 10px
+  padding: 10px;
+  border-radius: 1px;
+  border-style: double;
 }
