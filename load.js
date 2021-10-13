@@ -1,3 +1,13 @@
+if (localStorage.getItem("visit") == null)
+{
+    // Show Welcome message
+    localStorage.setItem("latest", data.num);
+}
+
+localStorage.setItem("visit", new Date());
+// Here you can check if last visit date is longer than a day and clear it up, showing Welcome message again...
+
+
 //loading image and alt
 var comicObject = document.getElementById("comic").src = data.img;
 comicObject.alt = data.alt;
@@ -9,7 +19,13 @@ if(data.num === 1) {
   document.getElementById("prevButton").disabled = true;
 }
 else {
-  document.getElementById("prevButton").disabled = false; 
+  document.getElementById("prevButton").disabled = false;
+}
+if (localStorage.getItem("latest") !== data.num){
+  document.getElementById("nextButton").disabled = true;
+}
+else {
+  document.getElementById("prevButton").disabled = false;
 }
 
 //setting up buttons to change the number then update the page
