@@ -5,6 +5,13 @@ comicObject.alt = data.alt;
 //loading title
 document.getElementById("picture-title").textContent = data.title;
 
+if(data.num === 1) {
+  document.getElementById("prevButton").disabled = true;
+}
+else {
+  document.getElementById("prevButton").disabled = false; 
+}
+
 //setting up buttons to change the number then update the page
 document.getElementById("prevButton").addEventListener("click", function() {
   if ( data.num !== 1){
