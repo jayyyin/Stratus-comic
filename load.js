@@ -1,4 +1,4 @@
-if (window.localStorage.getItem("visit") == null)
+if (window.localStorage.getItem("visit") == null || window.localStorage.getItem("latest") == null)
 {
     // setting data num to first visited site (should be latest)
     window.localStorage.setItem("latest", data.num);
