@@ -26,7 +26,7 @@
 <script src="init.js"></script>
 <h1>XKCD comics</h1>
 <hr>
-<div id='picture group'>
+<div id='picture-group'>
 
   <div id='picture-frame'>
     <img id="comic">
