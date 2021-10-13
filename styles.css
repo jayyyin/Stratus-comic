@@ -1,12 +1,12 @@
 body {
-  background-color: gray;
+  background-color:#96A8C8;
 }
 
 #frame {
   min-height: 90vh;
   margin: auto;
   align-self: center;
-  background-color: powderblue;
+  background-color: white;
   align-content: center;
   min-width: -moz-fit-content;
   min-width: fit-content;
