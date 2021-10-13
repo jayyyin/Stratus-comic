@@ -14,16 +14,15 @@ document.getElementById("nextButton").addEventListener("click", function() {
 var dateString = ''+ data.year + '-' + data.month + '-' + data.day
 const creationDate = new Date(dateString)
 var date = document.getElementById("date").textContent = creationDate.toLocaleString('default', {month: 'long', day: '2-digit', year: 'numeric' });
-var idx1, idx2;
 if (data.transcript !== "") {
   //replace all new lines with break rows
   var stringedTranscript = data.transcript.replaceAll( '\n', '<br>');
 
 
   //finding the title string
-  idx1 = stringedTranscript.indexOf("{") + 1;
+  var idx1 = stringedTranscript.indexOf("{") + 1;
   console.log(idx1);
-  idx2 = stringedTranscript.lastIndexOf("}");
+  var idx2 = stringedTranscript.lastIndexOf("}");
   var subString = stringedTranscript.substring(idx1,idx2);
 
   //removing the title string from the original transcript
