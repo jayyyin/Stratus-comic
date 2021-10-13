@@ -10,6 +10,10 @@ p {
   color: black;
 }
 
+button {
+  width: 50px;
+}
+
 #picture-group {
   margin-left: auto;
   margin-right: auto;
