@@ -6,7 +6,7 @@ body {
   min-height: 90vh;
   margin: auto;
   align-self: center;
-  background-color: white;
+  background-color: gray;
   align-content: center;
   min-width: -moz-fit-content;
   min-width: fit-content;
@@ -66,6 +66,7 @@ h2 {
 }
 
 #transcript {
+  background-color: white;
   margin: auto;
   border-radius: 2px;
   border-style: ridge;
