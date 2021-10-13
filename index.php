@@ -9,7 +9,7 @@
 
 </head>
 <body>
-
+<div id='frame'>
   <script>
   var data = <?php
   if (isset($_GET['#'])) {
@@ -26,21 +26,22 @@
   echo $JSON;
   ?>
 
-</script>
-<script src="init.js"></script>
-<h1>XKCD comics</h1>
-<hr>
-<div id='picture-group'>
-  <h2 id='picture-title'> </h2>
-  <div id='picture-frame'>
-    <img id="comic">
+  </script>
+  <script src="init.js"></script>
+  <h1>XKCD comics</h1>
+  <hr>
+  <div id='picture-group'>
+    <h2 id='picture-title'> </h2>
+    <div id='picture-frame'>
+      <img id="comic">
+    </div>
+    <div id='button-group'>
+      <button id="prevButton" type="button">Prev</button>
+      <button id="nextButton" type="button">Next</button>
+    </div>
   </div>
-  <div id='button-group'>
-    <button id="prevButton" type="button">Prev</button>
-    <button id="nextButton" type="button">Next</button>
+  <p>This is a paragraph.</p>
+  <script src="load.js"></script>
   </div>
-</div>
-<p>This is a paragraph.</p>
-<script src="load.js"></script>
 </body>
 </html>
