@@ -43,6 +43,11 @@ document.getElementById("nextButton").addEventListener("click", function() {
   loadData(false);
 });
 
+document.getElementById("randomButton").addEventListener("click", function() {
+  data.num = Math.floor(Math.random() * parseInt(window.localStorage.getItem("latest")));
+  loadData(false);
+});
+
 //setting up creation date
 var dateString = ''+ data.year + '-' + data.month + '-' + data.day
 const creationDate = new Date(dateString)

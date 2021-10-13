@@ -33,6 +33,7 @@
   <div id='picture-group'>
     <div id='button-group'>
       <button id="prevButton" type="button">Prev</button>
+      <button id="randomButton" type="button">Random</button>
       <button id="nextButton" type="button">Next</button>
     </div>
     <h2 id='picture-title'> </h2>
