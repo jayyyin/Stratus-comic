@@ -31,7 +31,7 @@
 <h1>XKCD comics</h1>
 <hr>
 <div id='picture-group'>
-
+  <h2 id='picture-title'> </h2>
   <div id='picture-frame'>
     <img id="comic">
   </div>
