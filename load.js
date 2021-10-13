@@ -20,12 +20,12 @@ if (data.transcript !== "") {
 
 
   //finding the title string
-  var indx1 = stringedTranscript.indexOf("{") + 1;
-  var indx2 = stringedTranscript.lastIndexOf("}");
+  var idx1 = stringedTranscript.indexOf("{") + 1;
+  var idx2 = stringedTranscript.lastIndexOf("}");
   var subString = stringedTranscript.substring(idx1,idx2);
 
   //removing the title string from the original transcript
-  stringedTranscript = stringedTranscript.substring(0, indx1-1);
+  stringedTranscript = stringedTranscript.substring(0, idx1-1);
 
   //removing "title string" and curly braces
   var subString2 = subString.substring( subString.indexOf(':') + 1,
