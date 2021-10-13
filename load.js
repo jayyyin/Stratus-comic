@@ -24,7 +24,7 @@ if (window.localStorage.getItem("latest") !== data.num){
   document.getElementById("nextButton").disabled = true;
 }
 else {
-  document.getElementById("prevButton").disabled = false;
+  document.getElementById("nextButton").disabled = false;
 }
 
 //setting up buttons to change the number then update the page
