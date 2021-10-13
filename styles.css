@@ -14,13 +14,16 @@ button {
   min-width: 100px;
   width: 12em;
 }
-
+h2 {
+  text-align: center;
+}
 #picture-group {
   margin-left: auto;
   margin-right: auto;
   width: fit-content;
   align-content: center;
 }
+
 #picture-frame {
   margin-left: auto;
   margin-right: auto;
