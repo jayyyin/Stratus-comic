@@ -68,4 +68,6 @@ h2 {
 #transcript {
   border-radius: 2px;
   border-style: ridge;
+  overflow-wrap: normal;
+  max-width: 11em;
 }
