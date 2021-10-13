@@ -18,7 +18,7 @@ function loadData(init) {
   };
 };
 
-loadData(True);
+loadData(true);
 //console.log(search_params.get('#'));
 //window.history.replaceState(null, null, "?#=" + data.num);
 //const queryString = window.location.search;
