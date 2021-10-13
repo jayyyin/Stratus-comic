@@ -66,8 +66,9 @@ h2 {
 }
 
 #transcript {
+  margin: auto;
   border-radius: 2px;
   border-style: ridge;
   overflow-wrap: normal;
-  max-width: 11em;
+  max-width: 80%;
 }
