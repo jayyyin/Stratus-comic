@@ -11,7 +11,8 @@ p {
 }
 
 button {
-  width: 1em;
+  min-width: 100px;
+  width: 12em;
 }
 
 #picture-group {
