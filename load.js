@@ -13,4 +13,4 @@ document.getElementById("nextButton").addEventListener("click", function() {
 });
 var dateString = ''+ data.year + '-' + data.month + '-' + data.day
 const creationDate = new Date(dateString)
-var date = document.getElementById("date").textContent = creationDate.toLocaleString('default', { month: 'long' });
+var date = document.getElementById("date").textContent = creationDate.toLocaleString('default', {year: 'numeric', month: 'long', day: '2-digit' });
