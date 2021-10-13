@@ -20,7 +20,7 @@ if(data.num === 1) {
 else {
   document.getElementById("prevButton").disabled = false;
 }
-if (window.localStorage.getItem("latest") === data.num){
+if (parseInt(window.localStorage.getItem("latest")) === data.num){
   document.getElementById("nextButton").disabled = true;
 }
 else {
