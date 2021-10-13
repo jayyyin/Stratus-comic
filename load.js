@@ -62,7 +62,7 @@ if (data.transcript !== "") {
 
   var idx2 = stringedTranscript.lastIndexOf("}");
   var subString = stringedTranscript.substring(idx1,idx2);
-console.log(subString);
+
   if(subString|| subString !== "") {
     //removing the title string from the original transcript
     stringedTranscript = stringedTranscript.substring(0, idx1-1);
@@ -71,10 +71,12 @@ console.log(subString);
     var subString2 = subString.substring( subString.indexOf(':') + 1,
       subString.indexOf('}')
     );
+
+    //reinserting title string back in as a title
+    stringedTranscript = "<h3>" + subString2 + "</h3><br>" + stringedTranscript;
   }
 
 
-  //reinserting title string back in as a title
-  stringedTranscript = "<h3>" + subString2 + "</h3><br>" + stringedTranscript;
+
   document.getElementById("transcript").innerHTML = stringedTranscript;
 }
