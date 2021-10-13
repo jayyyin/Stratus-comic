@@ -35,8 +35,10 @@
   <div id='picture-frame'>
     <img id="comic">
   </div>
-   <button id="prevButton" type="button">Prev</button>
-   <button id="nextButton" type="button">Next</button>
+  <div id='button-group'>
+    <button id="prevButton" type="button">Prev</button>
+    <button id="nextButton" type="button">Next</button>
+  </div>
 </div>
 <p>This is a paragraph.</p>
 <script src="load.js"></script>
