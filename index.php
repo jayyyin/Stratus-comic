@@ -31,7 +31,7 @@
   <div id='picture-frame'>
     <img id="comic">
   </div>
-   <button id="PrevButton" type="button">Prev</button>
+   <button id="prevButton" type="button">Prev</button>
    <button id="nextButton" type="button">Next</button>
 </div>
 <p>This is a paragraph.</p>

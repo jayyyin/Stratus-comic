@@ -14,6 +14,12 @@ if (search_params.get('#') !== data.num) {
 
 
 
+document.getElementById("prevButton").addEventListener("click", function() {
+  search_params.set('#', data.num-1);
+  window.history.replaceState(null, null, "?%23=" + data.num-1);
+});
+
+
 //console.log(search_params.get('#'));
 //window.history.replaceState(null, null, "?#=" + data.num);
 //const queryString = window.location.search;
