@@ -63,13 +63,16 @@ if (data.transcript !== "") {
   var idx2 = stringedTranscript.lastIndexOf("}");
   var subString = stringedTranscript.substring(idx1,idx2);
 
-  //removing the title string from the original transcript
-  stringedTranscript = stringedTranscript.substring(0, idx1-1);
+  if(subString != null) {
+    //removing the title string from the original transcript
+    stringedTranscript = stringedTranscript.substring(0, idx1-1);
 
-  //removing "title string" and curly braces
-  var subString2 = subString.substring( subString.indexOf(':') + 1,
-    subString.indexOf('}')
-  );
+    //removing "title string" and curly braces
+    var subString2 = subString.substring( subString.indexOf(':') + 1,
+      subString.indexOf('}')
+    );
+  }
+
 
   //reinserting title string back in as a title
   stringedTranscript = "<h3>" + subString2 + "</h3><br>" + stringedTranscript;
