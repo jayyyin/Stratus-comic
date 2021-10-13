@@ -19,6 +19,7 @@ button {
   margin-left: auto;
   margin-right: auto;
   width: fit-content;
+  align-content: center;
 }
 #picture-frame {
   margin-left: auto;
