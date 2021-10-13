@@ -7,8 +7,10 @@ document.getElementById("picture-title").textContent = data.title;
 
 //setting up buttons to change the number then update the page
 document.getElementById("prevButton").addEventListener("click", function() {
-  data.num -= 1;
-  loadData(false);
+  if ( data.num !== 1){
+    data.num -= 1;
+    loadData(false);
+  }
 });
 document.getElementById("nextButton").addEventListener("click", function() {
   data.num += 1;
