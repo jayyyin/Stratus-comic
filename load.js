@@ -4,7 +4,7 @@ if (window.localStorage.getItem("visit") == null)
     window.localStorage.setItem("latest", data.num);
 }
 //sanity checking latest value, since data.num would be empty if there wasn't a comic
-if(data.num > parseInt(window.localStorage.getItem("latest")){
+if(data.num > parseInt(window.localStorage.getItem("latest"))){
   window.localStorage.setItem("latest", data.num);
 }
 
