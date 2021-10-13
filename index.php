@@ -40,9 +40,9 @@
       <img id="comic">
       <h2 id='date'> </h2>
     </div>
-
+    <p id=transcript>comic contains no transcript</p>
   </div>
-  <p>This is a paragraph.</p>
+
   <script src="load.js"></script>
   </div>
 </body>
