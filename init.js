@@ -1,4 +1,3 @@
-console.log(data);
 function loadData(init) {
   //setting default url
   var url = new URL('https://xkcd-comics-viewer.herokuapp.com/');

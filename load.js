@@ -1,7 +1,7 @@
 if (window.localStorage.getItem("visit") == null || window.localStorage.getItem("latest") == null)
 {
-    // setting data num to first visited site (should be latest)
-    window.localStorage.setItem("latest", data.num);
+  // setting data num to first visited site (should be latest)
+  window.localStorage.setItem("latest", data.num);
 }
 //sanity checking latest value, since data.num would be empty if there wasn't a comic
 if(data.num > parseInt(window.localStorage.getItem("latest"))){
@@ -69,14 +69,12 @@ if (data.transcript !== "") {
 
     //removing "title string" and curly braces
     var subString2 = subString.substring( subString.indexOf(':') + 1,
-      subString.indexOf('}')
-    );
+    subString.indexOf('}')
+  );
 
-    //reinserting title string back in as a title
-    stringedTranscript = "<h3>" + subString2 + "</h3><br>" + stringedTranscript;
-  }
+  //reinserting title string back in as a title
+  stringedTranscript = "<h3>" + subString2 + "</h3><br>" + stringedTranscript;
+}
 
-
-
-  document.getElementById("transcript").innerHTML = stringedTranscript;
+document.getElementById("transcript").innerHTML = stringedTranscript;
 }
