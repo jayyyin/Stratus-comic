@@ -1,3 +1,4 @@
+//visit variable is a check for first visit
 if (window.localStorage.getItem("visit") == null || window.localStorage.getItem("latest") == null)
 {
   // setting data num to first visited site (should be latest)
@@ -7,6 +8,7 @@ if (window.localStorage.getItem("visit") == null || window.localStorage.getItem(
 if(data.num > parseInt(window.localStorage.getItem("latest"))){
   window.localStorage.setItem("latest", data.num);
 }
+//storing visted times keyed to comic number
 if(window.localStorage.getItem(data.num) == null){
   window.localStorage.setItem(data.num, 1);
 }
@@ -14,6 +16,7 @@ else {
   window.localStorage.setItem(data.num, parseInt(window.localStorage.getItem(data.num)) + 1);
 }
 document.getElementById("visited").textContent = "visited this comic " + window.localStorage.getItem(data.num) + " time(s)";
+//sets vist as current date and time
 window.localStorage.setItem("visit", new Date());
 
 
@@ -24,6 +27,7 @@ comicObject.alt = data.alt;
 //loading title
 document.getElementById("picture-title").textContent = data.title;
 
+//disables buttons when appropriate
 if(data.num === 1) {
   document.getElementById("prevButton").disabled = true;
 }
