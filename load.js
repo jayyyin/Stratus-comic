@@ -13,7 +13,7 @@ if(window.localStorage.getItem(data.num) == null){
 else {
   window.localStorage.setItem(data.num, parseInt(window.localStorage.getItem(data.num)) + 1);
 }
-document.getElementById("visited").textContent = "visited " + window.localStorage.getItem(data.num) + " times";
+document.getElementById("visited").textContent = "visited this comic " + window.localStorage.getItem(data.num) + " time(s)";
 window.localStorage.setItem("visit", new Date());
 
 
