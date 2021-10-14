@@ -1,9 +1,81 @@
 body {
-  background-color: powderblue;
+  background-color:#363945;
 }
-h1 {
-  color: blue;
+#frame {
+  min-height: 90vh;
+  margin: auto;
+  align-self: center;
+  background-color:#363945;
+  align-content: center;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+  max-width: 80%
 }
-p {
-  color: red;
+
+#title {
+  color: white;
+  text-align: center;
+}
+
+.comic-buttons {
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 100px;
+  width: 12em;
+}
+
+#picture-title{
+  text-align: center;
+  color: white;
+}
+#picture-group {
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  align-content: center;
+  text-align: center;
+}
+
+#button-group {
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  align-content: center;
+}
+
+#picture-frame {
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 500px;
+  min-height: 500px;
+  align-self: center;
+  width: fit-content;
+  color: white;
+}
+
+#comic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  align-self: center;
+  padding: 10px;
+  border-radius: 1px;
+  border-style: double;
+  background-color: white;
+  color: #363945;
+}
+
+#transcript {
+  margin: auto;
+  border-radius: 2px;
+  border-style: ridge;
+  overflow-wrap: normal;
+  max-width: 80%;
+  color: white;
+  font-size: 18px;
+}
+
+#visited {
+  color: white;
 }
