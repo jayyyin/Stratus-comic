@@ -9,6 +9,8 @@
 
 </head>
 <body>
+<h1>XKCD comics</h1>
+<hr>
 <div id='frame'>
   <script>
   var data = <?php
@@ -28,8 +30,7 @@
 
   </script>
   <script src="init.js"></script>
-  <h1>XKCD comics</h1>
-  <hr>
+
   <div id='picture-group'>
     <div id='button-group'>
       <button id="prevButton" type="button">Prev</button>
