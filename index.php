@@ -11,7 +11,7 @@
   <hr>
   <div id='frame'>
     <script>
-    var data =JSON.parse(' <?php
+    var data =<?php
     if (isset($_GET['#'])) {
       $url = 'https://xkcd.com/' . $_GET['#'] . '/info.0.json';
     } else {
@@ -24,7 +24,7 @@
       $JSON = file_get_contents($url);
     }
     echo json_decode(stripslashes($JSON));
-    ?>');
+    ?>;
 
     </script>
     <script src="init.js"></script>
