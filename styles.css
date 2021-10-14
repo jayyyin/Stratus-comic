@@ -19,11 +19,11 @@ body {
 }
 
 h1 {
-  color: white;
+  color: black;
   text-align: center;
 }
 p {
-  color: white;
+  color: black;
 }
 
 .comic-buttons {
@@ -34,7 +34,7 @@ p {
 }
 h2 {
   text-align: center;
-  color: white;
+  color: black;
 }
 #picture-group {
   margin-left: auto;
@@ -58,7 +58,7 @@ h2 {
   min-height: 500px;
   align-self: center;
   width: fit-content;
-  color: white;
+  color: black;
 }
 
 #comic {
@@ -79,5 +79,5 @@ h2 {
   border-style: ridge;
   overflow-wrap: normal;
   max-width: 80%;
-  color: white;
+  color: black;
 }
