@@ -28,6 +28,7 @@ button {
 }
 h2 {
   text-align: center;
+  color: white;
 }
 #picture-group {
   margin-left: auto;
@@ -51,6 +52,7 @@ h2 {
   min-height: 500px;
   align-self: center;
   width: fit-content;
+  color: white;
 }
 
 #comic {
