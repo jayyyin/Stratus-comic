@@ -10,6 +10,7 @@
 </head>
 <body>
 <h1>XKCD comics</h1>
+<button id="toggleDarkModeButton"type="button">DarkMode</button>
 <hr>
 <div id='frame'>
   <script>
@@ -33,9 +34,9 @@
 
   <div id='picture-group'>
     <div id='button-group'>
-      <button id="prevButton" type="button">Prev</button>
-      <button id="randomButton" type="button">Random</button>
-      <button id="nextButton" type="button">Next</button>
+      <button class="comic-buttons" id="prevButton" type="button">Prev</button>
+      <button class="comic-buttons" id="randomButton" type="button">Random</button>
+      <button class="comic-buttons" id="nextButton" type="button">Next</button>
     </div>
     <h2 id='picture-title'> </h2>
     <div id='picture-frame'>

@@ -1,17 +1,23 @@
 body {
-  background-color:#363945;
+  background-color:white;
+}
+
+.dark-mode {
+  background-color: #363945;
+  color: white;
 }
 
 #frame {
   min-height: 90vh;
   margin: auto;
   align-self: center;
-  background-color:#363945;
+  background-color:white;
   align-content: center;
   min-width: -moz-fit-content;
   min-width: fit-content;
   max-width: 80%
 }
+
 h1 {
   color: white;
   text-align: center;
@@ -20,7 +26,7 @@ p {
   color: white;
 }
 
-button {
+.comic-buttons {
   margin-left: auto;
   margin-right: auto;
   min-width: 100px;
