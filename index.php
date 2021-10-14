@@ -23,6 +23,7 @@
       $url = 'https://xkcd.com/info.0.json';
       $JSON = file_get_contents($url);
     }
+    //removing extra_parts due to large number of quotes and escaped slashes causing issues
     $JSON = json_decode($JSON, true);
     unset($JSON["extra_parts"]);
     $JSON = json_encode($JSON);
