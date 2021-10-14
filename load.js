@@ -87,8 +87,7 @@ document.getElementById("toggleDarkModeButton").addEventListener("click", functi
 
   document.getElementById("frame").classList.toggle("dark-mode");
   document.getElementById("transcript").classList.toggle("dark-mode");
-  document.h1.classList.toggle("dark-mode");
-  document.h2.classList.toggle("dark-mode");
-  document.p.classList.toggle("dark-mode");
+  document.getElementById("title").classList.toggle("dark-mode");
+  document.getElementById("picture-title").classList.toggle("dark-mode");
 
 });

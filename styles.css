@@ -18,12 +18,9 @@ body {
   max-width: 80%
 }
 
-h1 {
+#title {
   color: black;
   text-align: center;
-}
-p {
-  color: black;
 }
 
 .comic-buttons {
@@ -32,7 +29,8 @@ p {
   min-width: 100px;
   width: 12em;
 }
-h2 {
+
+#picture-title{
   text-align: center;
   color: black;
 }
