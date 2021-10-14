@@ -1,17 +1,11 @@
 body {
-  background-color:white;
+  background-color:#363945;
 }
-
-.dark-mode {
-  background-color: #363945;
-  color: white;
-}
-
 #frame {
   min-height: 90vh;
   margin: auto;
   align-self: center;
-  background-color:white;
+  background-color:#363945;
   align-content: center;
   min-width: -moz-fit-content;
   min-width: fit-content;
@@ -19,7 +13,7 @@ body {
 }
 
 #title {
-  color: black;
+  color: white;
   text-align: center;
 }
 
@@ -32,7 +26,7 @@ body {
 
 #picture-title{
   text-align: center;
-  color: black;
+  color: white;
 }
 #picture-group {
   margin-left: auto;
@@ -56,7 +50,7 @@ body {
   min-height: 500px;
   align-self: center;
   width: fit-content;
-  color: black;
+  color: white;
 }
 
 #comic {
@@ -77,5 +71,5 @@ body {
   border-style: ridge;
   overflow-wrap: normal;
   max-width: 80%;
-  color: black;
+  color: white;
 }

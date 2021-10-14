@@ -80,14 +80,3 @@ if (data.transcript !== "") {
 
   document.getElementById("transcript").innerHTML = stringedTranscript;
 }
-
-document.getElementById("toggleDarkModeButton").addEventListener("click", function() {
-  var element = document.body;
-  element.classList.toggle("dark-mode");
-
-  document.getElementById("frame").classList.toggle("dark-mode");
-  document.getElementById("transcript").classList.toggle("dark-mode");
-  document.getElementById("title").classList.toggle("dark-mode");
-  document.getElementById("picture-title").classList.toggle("dark-mode");
-
-});

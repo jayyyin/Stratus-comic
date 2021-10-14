@@ -10,7 +10,6 @@
 </head>
 <body>
 <h1 id="title">XKCD comics</h1>
-<button id="toggleDarkModeButton"type="button">DarkMode</button>
 <hr>
 <div id='frame'>
   <script>
