@@ -6,7 +6,7 @@ body {
   min-height: 90vh;
   margin: auto;
   align-self: center;
-  background-color: #9BB7D4;
+  background-color:#0072B5;
   align-content: center;
   min-width: -moz-fit-content;
   min-width: fit-content;
@@ -72,8 +72,4 @@ h2 {
   border-style: ridge;
   overflow-wrap: normal;
   max-width: 80%;
-}
-
-@media only screen and (max-width:480px) {
-  button {width: 100%; font-size: 4.25em; }
 }
