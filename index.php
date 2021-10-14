@@ -31,6 +31,7 @@
 
     <div id='picture-group'>
       <div id='button-group'>
+        <p id="visited"></p>
         <button class="comic-buttons" id="prevButton" type="button">Prev</button>
         <button class="comic-buttons" id="randomButton" type="button">Random</button>
         <button class="comic-buttons" id="nextButton" type="button">Next</button>

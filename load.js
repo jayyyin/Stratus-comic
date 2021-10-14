@@ -7,7 +7,13 @@ if (window.localStorage.getItem("visit") == null || window.localStorage.getItem(
 if(data.num > parseInt(window.localStorage.getItem("latest"))){
   window.localStorage.setItem("latest", data.num);
 }
-
+if(window.localStorage.getItem(data.num) == null){
+  window.localStorage.setItem(data.num, 1);
+}
+else {
+  window.localStorage.setItem(data.num, window.localStorage.getItem(data.num) + 1);
+}
+document.getElementById("visited").textContent = "visited " + window.localStorage.getItem(data.num) + " times";
 window.localStorage.setItem("visit", new Date());
 
 
