@@ -1,12 +1,12 @@
 body {
-  background-color:#0072B5;
+  background-color:#9BB7D4;
 }
 
 #frame {
   min-height: 90vh;
   margin: auto;
   align-self: center;
-  background-color:#0072B5;
+  background-color:#9BB7D4;
   align-content: center;
   min-width: -moz-fit-content;
   min-width: fit-content;
