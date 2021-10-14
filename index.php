@@ -23,7 +23,7 @@
       $url = 'https://xkcd.com/info.0.json';
       $JSON = file_get_contents($url);
     }
-    echo json_decode($JSON);
+    echo json_encode($JSON);
     ?>');
 
     </script>
