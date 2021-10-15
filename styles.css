@@ -72,6 +72,7 @@ body {
   border-style: ridge;
   overflow-wrap: normal;
   max-width: 80%;
+  min-width: fit-content;
   color: white;
   font-size: 18px;
 }
